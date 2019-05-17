@@ -1,0 +1,9 @@
+POST http://graphql-demo.test/graphql HTTP/1.1
+Host: graphql-demo.test
+Accept: application/json
+Content-Type: application/json
+Content-Length: 57
+
+{
+    "query" : "{users(count: 10) {data {id,name}}}"
+}

@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/d080788/
+App	/Users/Ariel/code/graphql-demo/app/Comment.php	/^namespace App;$/;"	n
+App	/Users/Ariel/code/graphql-demo/app/Post.php	/^namespace App;$/;"	n
+App	/Users/Ariel/code/graphql-demo/app/User.php	/^namespace App;$/;"	n
+Authenticatable	/Users/Ariel/code/graphql-demo/app/User.php	/^use Illuminate\\Foundation\\Auth\\User as Authenticatable;$/;"	a	namespace:App	typeref:unknown:Illuminate\\Foundation\\Auth\\User
+BelongsTo	/Users/Ariel/code/graphql-demo/app/Post.php	/^use Illuminate\\Database\\Eloquent\\Relations\\BelongsTo;$/;"	a	namespace:App	typeref:unknown:Illuminate\\Database\\Eloquent\\Relations\\BelongsTo
+Blueprint	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134534_create_posts_table.php	/^use Illuminate\\Database\\Schema\\Blueprint;$/;"	a	typeref:unknown:Illuminate\\Database\\Schema\\Blueprint
+Blueprint	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134542_create_comments_table.php	/^use Illuminate\\Database\\Schema\\Blueprint;$/;"	a	typeref:unknown:Illuminate\\Database\\Schema\\Blueprint
+Comment	/Users/Ariel/code/graphql-demo/app/Comment.php	/^class Comment extends Model$/;"	c	namespace:App	inherits:Model
+Comment	/Users/Ariel/code/graphql-demo/database/factories/CommentFactory.php	/^$factory->define(Comment::class, function (Faker $faker) {$/;"	d
+Comment	/Users/Ariel/code/graphql-demo/database/factories/CommentFactory.php	/^use App\\Comment;$/;"	a	typeref:unknown:App\\Comment
+Comment	/Users/Ariel/code/graphql-demo/database/seeds/DatabaseSeeder.php	/^use App\\Comment;$/;"	a	typeref:unknown:App\\Comment
+CreateCommentsTable	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134542_create_comments_table.php	/^class CreateCommentsTable extends Migration$/;"	c	inherits:Migration
+CreatePostsTable	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134534_create_posts_table.php	/^class CreatePostsTable extends Migration$/;"	c	inherits:Migration
+DatabaseSeeder	/Users/Ariel/code/graphql-demo/database/seeds/DatabaseSeeder.php	/^class DatabaseSeeder extends Seeder$/;"	c	inherits:Seeder
+Faker	/Users/Ariel/code/graphql-demo/database/factories/CommentFactory.php	/^use Faker\\Generator as Faker;$/;"	a	typeref:unknown:Faker\\Generator
+Faker	/Users/Ariel/code/graphql-demo/database/factories/PostFactory.php	/^use Faker\\Generator as Faker;$/;"	a	typeref:unknown:Faker\\Generator
+Migration	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134534_create_posts_table.php	/^use Illuminate\\Database\\Migrations\\Migration;$/;"	a	typeref:unknown:Illuminate\\Database\\Migrations\\Migration
+Migration	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134542_create_comments_table.php	/^use Illuminate\\Database\\Migrations\\Migration;$/;"	a	typeref:unknown:Illuminate\\Database\\Migrations\\Migration
+Model	/Users/Ariel/code/graphql-demo/app/Comment.php	/^use Illuminate\\Database\\Eloquent\\Model;$/;"	a	namespace:App	typeref:unknown:Illuminate\\Database\\Eloquent\\Model
+Model	/Users/Ariel/code/graphql-demo/app/Post.php	/^use Illuminate\\Database\\Eloquent\\Model;$/;"	a	namespace:App	typeref:unknown:Illuminate\\Database\\Eloquent\\Model
+MustVerifyEmail	/Users/Ariel/code/graphql-demo/app/User.php	/^use Illuminate\\Contracts\\Auth\\MustVerifyEmail;$/;"	a	namespace:App	typeref:unknown:Illuminate\\Contracts\\Auth\\MustVerifyEmail
+Notifiable	/Users/Ariel/code/graphql-demo/app/User.php	/^use Illuminate\\Notifications\\Notifiable;$/;"	a	namespace:App	typeref:unknown:Illuminate\\Notifications\\Notifiable
+Post	/Users/Ariel/code/graphql-demo/app/Post.php	/^class Post extends Model$/;"	c	namespace:App	inherits:Model
+Post	/Users/Ariel/code/graphql-demo/database/factories/PostFactory.php	/^$factory->define(Post::class, function (Faker $faker) {$/;"	d
+Post	/Users/Ariel/code/graphql-demo/database/factories/PostFactory.php	/^use App\\Post;$/;"	a	typeref:unknown:App\\Post
+Post	/Users/Ariel/code/graphql-demo/database/seeds/DatabaseSeeder.php	/^use App\\Post;$/;"	a	typeref:unknown:App\\Post
+Schema	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134534_create_posts_table.php	/^use Illuminate\\Support\\Facades\\Schema;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Schema
+Schema	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134542_create_comments_table.php	/^use Illuminate\\Support\\Facades\\Schema;$/;"	a	typeref:unknown:Illuminate\\Support\\Facades\\Schema
+Seeder	/Users/Ariel/code/graphql-demo/database/seeds/DatabaseSeeder.php	/^use Illuminate\\Database\\Seeder;$/;"	a	typeref:unknown:Illuminate\\Database\\Seeder
+User	/Users/Ariel/code/graphql-demo/app/User.php	/^class User extends Authenticatable$/;"	c	namespace:App	inherits:Authenticatable
+User	/Users/Ariel/code/graphql-demo/database/factories/CommentFactory.php	/^use App\\User;$/;"	a	typeref:unknown:App\\User
+User	/Users/Ariel/code/graphql-demo/database/factories/PostFactory.php	/^use App\\User;$/;"	a	typeref:unknown:App\\User
+comments	/Users/Ariel/code/graphql-demo/app/Post.php	/^    public function comments()$/;"	f	class:App\\Post	access:public	signature:()
+comments	/Users/Ariel/code/graphql-demo/app/User.php	/^    public function comments()$/;"	f	class:App\\User	access:public	signature:()
+down	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134534_create_posts_table.php	/^    public function down()$/;"	f	class:CreatePostsTable	access:public	signature:()
+down	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134542_create_comments_table.php	/^    public function down()$/;"	f	class:CreateCommentsTable	access:public	signature:()
+post	/Users/Ariel/code/graphql-demo/app/Comment.php	/^    public function post()$/;"	f	class:App\\Comment	access:public	signature:()
+posts	/Users/Ariel/code/graphql-demo/app/User.php	/^    public function posts()$/;"	f	class:App\\User	access:public	signature:()
+run	/Users/Ariel/code/graphql-demo/database/seeds/DatabaseSeeder.php	/^    public function run()$/;"	f	class:DatabaseSeeder	access:public	signature:()
+up	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134534_create_posts_table.php	/^    public function up()$/;"	f	class:CreatePostsTable	access:public	signature:()
+up	/Users/Ariel/code/graphql-demo/database/migrations/2019_05_17_134542_create_comments_table.php	/^    public function up()$/;"	f	class:CreateCommentsTable	access:public	signature:()
+user	/Users/Ariel/code/graphql-demo/app/Comment.php	/^    public function user()$/;"	f	class:App\\Comment	access:public	signature:()
+user	/Users/Ariel/code/graphql-demo/app/Post.php	/^    public function user()$/;"	f	class:App\\Post	access:public	signature:()
+user	/Users/Ariel/code/graphql-demo/app/Post.php	/^    public function user(): BelongsTo$/;"	f	class:App\\Post	access:public	signature:()
